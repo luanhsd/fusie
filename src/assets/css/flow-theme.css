@@ -1,0 +1,17 @@
+.vue-flow__node-default {
+    background: purple;
+    color: white;
+    border: 1px solid purple;
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px purple;
+    padding: 8px;
+}
+
+.my-custom-node-class {
+    background: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px blue;
+    padding: 8px;
+}

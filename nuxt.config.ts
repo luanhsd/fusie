@@ -28,7 +28,7 @@ export default defineNuxtConfig({
             autoprefixer: {},
         },
     },
-    css: ["~/assets/css/main.css"],
+    css: ["~/assets/css/main.css", "@vue-flow/core/dist/style.css", "~/assets/css/flow-theme.css"],
     srcDir: "src/",
     elementPlus: {
         importStyle: "scss",
