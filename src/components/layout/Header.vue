@@ -2,10 +2,7 @@
     <el-menu mode="horizontal" :ellipsis="false">
         <div class="flex w-full">
             <el-menu-item index="0" class="mr-auto">
-                <el-text type="primary" size="large" class="text-2xl font-bold">
-                    <font-awesome icon="chart-pie" style="font-size: 30px" />
-                    Metrics
-                </el-text>
+                <img src="~/assets/img/fusie.png" alt="Fusie Logo" class="h-32 max-w-full" />
             </el-menu-item>
 
             <el-menu-item index="1">
