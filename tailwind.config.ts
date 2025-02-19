@@ -1,0 +1,60 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+    content: ["./components/**/*.{js,vue,ts}", "./layouts/**/*.vue", "./pages/**/*.vue", "./plugins/**/*.{js,ts}", "./app.vue", "./error.vue"],
+    theme: {
+        extend: {
+            colors: {
+                primary: "var(--el-color-primary)",
+                "primary-light-3": "var(--el-color-primary-light-3)",
+                "primary-light-5": "var(--el-color-primary-light-5)",
+                "primary-light-7": "var(--el-color-primary-light-7)",
+                "primary-light-8": "var(--el-color-primary-light-8)",
+                "primary-light-9": "var(--el-color-primary-light-9)",
+                "primary-dark-2": "var(--el-color-primary-dark-2)",
+
+                success: "var(--el-color-success)",
+                "success-light-3": "var(--el-color-success-light-3)",
+                "success-light-5": "var(--el-color-success-light-5)",
+                "success-light-7": "var(--el-color-success-light-7)",
+                "success-light-8": "var(--el-color-success-light-8)",
+                "success-light-9": "var(--el-color-success-light-9)",
+                "success-dark-2": "var(--el-color-success-dark-2)",
+
+                warning: "var(--el-color-warning)",
+                "warning-light-3": "var(--el-color-warning-light-3)",
+                "warning-light-5": "var(--el-color-warning-light-5)",
+                "warning-light-7": "var(--el-color-warning-light-7)",
+                "warning-light-8": "var(--el-color-warning-light-8)",
+                "warning-light-9": "var(--el-color-warning-light-9)",
+                "warning-dark-2": "var(--el-color-warning-dark-2)",
+
+                danger: "var(--el-color-danger)",
+                "danger-light-3": "var(--el-color-danger-light-3)",
+                "danger-light-5": "var(--el-color-danger-light-5)",
+                "danger-light-7": "var(--el-color-danger-light-7)",
+                "danger-light-8": "var(--el-color-danger-light-8)",
+                "danger-light-9": "var(--el-color-danger-light-9)",
+                "danger-dark-2": "var(--el-color-danger-dark-2)",
+
+                error: "var(--el-color-error)",
+                "error-light-3": "var(--el-color-error-light-3)",
+                "error-light-5": "var(--el-color-error-light-5)",
+                "error-light-7": "var(--el-color-error-light-7)",
+                "error-light-8": "var(--el-color-error-light-8)",
+                "error-light-9": "var(--el-color-error-light-9)",
+                "error-dark-2": "var(--el-color-error-dark-2)",
+
+                info: "var(--el-color-info)",
+                "info-light-3": "var(--el-color-info-light-3)",
+                "info-light-5": "var(--el-color-info-light-5)",
+                "info-light-7": "var(--el-color-info-light-7)",
+                "info-light-8": "var(--el-color-info-light-8)",
+                "info-light-9": "var(--el-color-info-light-9)",
+                "info-dark-2": "var(--el-color-info-dark-2)",
+                regular: "var(--el-text-color-regular)",
+                secondary: "var(--el-text-color-secondary)",
+            },
+        },
+    },
+    plugins: [],
+};
