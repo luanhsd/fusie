@@ -43,9 +43,7 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
-  content: {
-    preview: {
-      api: 'https://api.nuxt.studio'
-    }
+  studio:{
+   enabled: true,
   }
 });
