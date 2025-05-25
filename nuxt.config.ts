@@ -45,5 +45,10 @@ export default defineNuxtConfig({
   },
   studio:{
    enabled: true,
+  },
+  content:{
+   api: {
+     baseURL: 'https://api.nuxt.studio',
+   },
   }
 });
