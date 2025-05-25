@@ -1,16 +1,18 @@
 ---
-title: Home
-description: Official Docs Launched
+title: Inicio
+description: Documentación Oficial Lanzada
 navigation: false
+fullpage: true
+aside: false
 ---
 
 ::hero
 ---
 announcement:
-  title: 'Official Docs Launched!'
+  title: '¡Documentación Oficial Lanzada!'
   icon: 'lucide:party-popper'
 actions:
-  - name: Explore Docs
+  - name: Explorar Documentación
   - name: GitHub
     variant: outline
     to: https://github.com/luanhsd/fusie
@@ -18,9 +20,9 @@ actions:
 ---
 
 #title
-Introducing the New :br FUSIE Documentation
+Presentando la Nueva :br Documentación de FUSIE
 
 #description
-> "FUSIE (Foo-zee) – In Dutch, 'fusie' means 'fusion' (as in the merging of ideas)."
+> "FUSIE (Foo-zee) – En holandés, 'fusie' significa 'fusión' (como en la unión de ideas)."
 ::
 

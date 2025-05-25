@@ -1,7 +1,7 @@
 export default defineAppConfig({
   shadcnDocs: {
     site: {
-      name: 'FUSIE - A Metrics Catalog for User Experience',
+      name: 'FUSIE',
       description: 'FUSIE is a metrics catalog designed to help teams and organizations track and improve user experience through standardized metrics and insights.',
     },
     theme: {
