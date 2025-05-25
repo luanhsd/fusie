@@ -9,10 +9,8 @@ navigation: false
 announcement:
   title: 'Official Docs Launched!'
   icon: 'lucide:party-popper'
-  to: /introduction
 actions:
   - name: Explore Docs
-    to: /introduction
   - name: GitHub
     variant: outline
     to: https://github.com/luanhsd/fusie
