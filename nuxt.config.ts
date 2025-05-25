@@ -11,7 +11,7 @@ export default defineNuxtConfig({
       link: [
         { rel: 'icon', type: 'image/svg', href: '/fusie-favicon.png' },
       ]
-    }
+    },
   },
   mdc: {
     highlight: {
