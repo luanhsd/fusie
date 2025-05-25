@@ -10,7 +10,7 @@ export default defineAppConfig({
       radius: 0.5,
     },
     header: {
-      title: '',
+      title: 'FUSIE',
       showTitle: true,
       darkModeToggle: true,
       showLoadingIndicator: true,
