@@ -2,10 +2,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  ssr: false,
-  nitro:{
-    preset: "github_pages"
-  },
   devtools: { enabled: true },
   extends: ['shadcn-docs-nuxt'],
   modules: ['@nuxt/content'],
