@@ -2,9 +2,13 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  ssr: false,
+  nitro:{
+    preset: "github_pages"
+  },
   devtools: { enabled: true },
   extends: ['shadcn-docs-nuxt'],
-  modules: ['@nuxt/content', '@nuxthq/studio'],
+  modules: ['@nuxt/content'],
   compatibilityDate: '2024-07-06',
   app: {
     head: {
@@ -43,12 +47,4 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
-  studio:{
-   enabled: true,
-  },
-  content:{
-   api: {
-     baseURL: 'https://api.nuxt.studio',
-   },
-  }
 });
