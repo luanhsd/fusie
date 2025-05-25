@@ -1,5 +1,5 @@
 {
-  "name": "fusie",
+  "name": "shadcn-docs-nuxt-starter",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,11 +10,9 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.7",
-    "nuxt": "^3.17.4",
+    "nuxt": "^3.17.0",
     "shadcn-docs-nuxt": "https://pkg.pr.new/ZTL-UwU/shadcn-docs-nuxt@e10d2c3",
-    "tailwindcss": "^4.1.7",
-    "vue": "^3.5.14",
+    "vue": "^3.5.13",
     "vue-router": "^4.5.1"
   }
 }
