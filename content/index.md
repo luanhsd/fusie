@@ -11,8 +11,10 @@ aside: false
 announcement:
   title: 'Documentação Oficial Lançada!'
   icon: 'lucide:party-popper'
+  to: /introduction
 actions:
   - name: Explorar Documentação
+    to: /introduction
   - name: GitHub
     variant: outline
     to: https://github.com/luanhsd/fusie
