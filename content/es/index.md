@@ -13,6 +13,10 @@ announcement:
 actions:
   - name: Explorar Documentación
     to: /introduction
+  - name: GitHub
+    variant: outline
+    to: https://github.com/luanhsd/fusie
+    leftIcon: 'lucide:github'
 ---
 
 #title
