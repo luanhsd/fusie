@@ -39,6 +39,23 @@ export default defineNuxtConfig({
     ], 
   },
   vite: {
+       css: {
+          preprocessorOptions: {
+              scss: {
+                  silenceDeprecations: ["legacy-js-api"],
+              },
+          },
+      },
+       build: {
+          rollupOptions: {
+            onwarn(warning, warn) {
+                if (warning.code === 'SOURCE_MAP_WARNING') {
+                    return;
+                }
+                warn(warning);
+            }
+          }
+        },
     plugins: [
       tailwindcss(),
     ],
