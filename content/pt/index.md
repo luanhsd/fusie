@@ -22,7 +22,7 @@ actions:
 ---
 
 #title
-Apresentando a Nova :br Documentação do FUSIE
+FUSIE :br Catálogo de Métricas de Experiência do Usuário para Aplicações Web
 
 #description
 > "FUSIE (Foo-zee) – Em holandês, 'fusie' significa 'fusão' (como na união de ideias)."

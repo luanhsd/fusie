@@ -23,7 +23,7 @@ mobileRight: 'top'
 ---
 
 #title
-Introducing the New :br FUSIE Documentation
+FUSIE :br Catalog of User Experience Metrics for Web Applications
 
 #description
 > "FUSIE (Foo-zee) – In Dutch, 'fusie' means 'fusion' (as in the union of ideas)."
